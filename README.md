@@ -79,7 +79,7 @@ The infrastructure is not continuously running in another region. Instead:
 
 ## Example Architecture
 
-![Backup and Restore Architecture](image.png)
+![Backup and Restore Architecture](images/image.png)
 
 
 ---
@@ -113,7 +113,7 @@ During a disaster, the remaining infrastructure is started and scaled.
 
 ## Example Architecture
 
-![Pilot Light Architecture](image-2.png)
+![Pilot Light Architecture](images/image-2.png)
 
 ---
 
@@ -140,7 +140,7 @@ The secondary region is always ready and only needs scaling up during a disaster
 
 ## Example Architecture
 
-![Warm Standby Architecture](image-3.png)
+![Warm Standby Architecture](images/image-3.png)
 
 ---
 
@@ -169,7 +169,7 @@ If one region fails, the other region continues serving users automatically.
 
 ## Example Architecture
 
-![Multi-Region Active-Active Architecture](image-4.png)
+![Multi-Region Active-Active Architecture](images/image-4.png)
 
 ---
 
